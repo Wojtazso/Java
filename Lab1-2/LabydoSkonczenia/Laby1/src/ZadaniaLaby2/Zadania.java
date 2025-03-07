@@ -105,7 +105,7 @@ public class Zadania {
 
             System.out.println("Podales słowo: "+slowo);
             System.out.println("Jego odwrotnosc to: "+odwr);
-    if(odwr.equals(slowo)) //odwr.equals(slowo) porównuje zawartość dwóch obiektów typu String, a nie ich adresy w pamięci
+    if(odwr.equalsIgnoreCase(slowo)) //odwr.equals(slowo) porównuje zawartość dwóch obiektów typu String, a nie ich adresy w pamięci
     {
         System.out.println("Wyraz jest palindronem");
     }
